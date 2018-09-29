@@ -103,7 +103,12 @@ c. print out "I'm done backing up"
 
 Write out the code in your file below...
 ----------
-
+ent-v314-009:~ student$ ent-v314-009:~ student$ sh copy_to_backup.sh
+ent-v314-009:~ student nano copy_to_backup.sh
+mkdir-p  backup
+cp *.txt
+echo "I'm done backing up"
+I'm done backing up
 
 
 ==========
@@ -114,7 +119,10 @@ Write out the code in your file below...
 
 What commands did you use to do this?
 ----------
-
+mkdir test
+cd test
+touch 1.txt
+touch 2.txt
 
 
 ==========
@@ -122,7 +130,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+mv copy_to_backup.sh test
 
 
 ==========
@@ -130,7 +138,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+student$ sh copy_to_backup.sh
 
 
 ==========
@@ -138,3 +146,18 @@ What commands did you use to do this?
 
 What commands did you use to do this?  Show the output.
 ----------
+Adlm                QLData
+Adobe                Things
+Applications            copy_to_backup.sh
+Desktop                ent-v314-009:~
+Documents            ipe.properties
+Downloads            isus
+Library                keychains
+MPLABXProjects            lightroom
+Morgana.png            mtec1002-lab-02.tar.gz
+Morgana.tar            mtec1002-lab-03
+Movies                mtec1002-lab-03.tar.gz
+Music                mtec1002-lab-03.tar.gz.cpgz
+New Unity Project        pymel.log
+Pictures            stuff
+Public                xgen
